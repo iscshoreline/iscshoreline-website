@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, intial-scale=1.0">
+    <title>ISC Shoreline</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="iscimages/logoisc.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="department.html">Our team</a></li>
+                    <li><a href="guide.html">Guide</a></li>
+                    <li><a href="contact.html" class="hero-btn">Contact</a></li>
+                    <li class="social-icons">
+                        <a href="https://www.instagram.com/iscshoreline" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@iscshoreline" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+        
+        
+    </section>
+   
+    <!------ about us content ------>
+    <section class="vision">
+        <div class="row">
+            <div class="vision-col">
+                <h1>Vision</h1>
+                <p>To create a dynamic and inclusive Indonesian student community in Shoreline Community college that empowers its members to reach their full potential, connect with their cultural heritage, and positively impact the world.</p>
+            </div>
+            <div class="vision-col">
+                <h1>Mission</h1>
+                <p>We strive to create a welcoming and inclusive environment where Indonesian students can connect with their peers, develop new skills, and make a positive impact in their community. By promoting cultural awareness and diversity, we hope to foster a sense of pride and belonging among Indonesian students, while also supporting their academic and personal growth.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Dylcio Wy</h1>
+                <h2>President of ISC 2022-2023</h2>
+                <h2>Transferred to UC Berkeley</h2>
+                <p>“I would never have thought that coming to Shoreline is going to be the best choice that I am gonna make. From great advisors to great friends, life in Shoreline has been amazing! Come and join ISC, and make a choice you won't regret!”</p>
+            </div>
+            <div class="about-col">
+                <img src="iscimages/dylcio+informal+2.jpeg">
+            </div>
+        </div>
+    </section>
+    
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <img src="iscimages/Aiko.jpeg">
+            </div>
+            <div class="about-col">
+                <h1>Cecilia Aiko</h1>
+                <h2>President of ISC 2021-2022</h2>
+                <h2>Transferred to UC Berkeley</h2>
+                <p>“My years at Shoreline were one of my happiest ones! I got to explore classes and subjects that I was interested in, and the advisors and other staff members were very helpful in guiding struggling international students. Not to mention, ISC helped me find a supportive community that helped me feel less homesick and closer to my culture. I found my best friends through ISC and I could not have made it where I am now without them!”</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="pastISC">
+        <h1>2022-2023</h1>
+        <div class="row2">
+            <img src="iscimages/ISC+2023.jpg">
+        </div>
+        <h1>2023-2024</h1>
+        <div class="row2">
+            <img src="iscimages/isc2024.jpeg">
+        </div>
+    </section>
+ 
+    <!------ footer ------>
+    <section class="footer">
+        <h4>Indonesian Student Community</h4>
+        <p>Shoreline Community College</p>
+        <p>16101 Greenwood Ave N, Shoreline, WA 98133</p>
+    </section>
+    
+<!-----------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>   
+    
+    
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, intial-scale=1.0">
+    <title>ISC Shoreline</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="iscimages/logoisc.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="department.html">Our team</a></li>
+                    <li><a href="guide.html">Guide</a></li>
+                    <li><a href="contact.html" class="hero-btn">Contact</a></li>
+                    <li class="social-icons">
+                        <a href="https://www.instagram.com/iscshoreline" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@iscshoreline" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+        
+        
+    </section>
+   
+    <!------ contact us ------>
+    
+    <section class="location">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2682.752691348629!2d-122.361201623599!3d47.7474529712031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549010db7c08813d%3A0x4e98443300ea8fc9!2sShoreline%20Community%20College!5e0!3m2!1sen!2sus!4v1707812231455!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    
+    </section>
+    
+    <section class="contact-us">
+        
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                       <h5>16101 Greenwood Ave N</h5>
+                        <p>Shoreline, Washington, USA</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                       <h5>iscshoreline@gmail.com</h5>
+                        <p>Email Us</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    
+    
+    </section>
+ 
+    <!------ footer ------>
+    <section class="footer">
+        <h4>Indonesian Student Community</h4>
+        <p>Shoreline Community College</p>
+        <p>16101 Greenwood Ave N, Shoreline, WA 98133</p>
+    </section>
+    
+<!-----------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>   
+    
+    
+</body>
+</html>

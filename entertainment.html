@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, intial-scale=1.0">
+    <title>ISC Shoreline</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="iscimages/logoisc.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="department.html">Our team</a></li>
+                    <li><a href="guide.html">Guide</a></li>
+                    <li><a href="contact.html" class="hero-btn">Contact</a></li>
+                    <li class="social-icons">
+                        <a href="https://www.instagram.com/iscshoreline" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@iscshoreline" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="showMenu()"></i>
+        </nav>
+        <h1>Guide to Seattle!</h1>
+        
+    </section>
+   
+    <!------ blog ------>
+    <section class="blog">
+        <h1>ENTERTAINMENT</h1>
+        <div class="blog-text">
+            <h2>INDONESIAN FOOD</h2>
+            <p>When you feel home sick and miss all those delicious indonesian food, here are places you can visit:</p>
+            <p> - Indo Cafe</p>
+            <p> - Kedai Makan</p>
+            <p> - Waroeng Jajan</p>
+            <!---divider--->
+            <h2>SHOPPING CENTERS</h2>
+            <p>Seattle has plenty of places to visit for you to shop your needs:</p>
+            <p> - Westlake Center</p>
+            <p> - Pacific Place</p>
+            <p> - University Village</p>
+            <p> - Northgate Station</p>
+            <!---divider--->
+            <h2>MOVIE THEATERS</h2>
+            <p>There are several movie theater spread across the area for you to keep up with the newest movies: </p>
+            <p> - AMC Alderwood Mall</p>
+            <p> - Regal Meridian</p>
+            <p> - Regal Thornton Place</p>
+            <p> - AMC Seattle 10</p>
+            <!---divider--->
+            <h2>GAMES</h2>
+            <p>Many fun game centers like arcades and bowling alleys are situated across the city:</p>
+            <p> - GameWorks Seattle</p>
+            <p> - Round1 Bowling and Amusement</p>
+            <p> - Puzzle Break Escape Room</p>
+            <!---divider--->
+            <h2>PARKS</h2>
+            <p>Chill around in parks when the weather is nice:</p>
+            <p>There's nothing better than going to the park when the sun's out. Here's a few places you can visit:</p>
+            <p> - Kerry Park</p>
+            <p> - Green Lake Park</p>
+            <p> - Discovery Park</p>
+        </div>
+    
+    </section>
+ 
+    <!------ footer ------>
+    <section class="footer">
+        <h4>Indonesian Student Community</h4>
+        <p>Shoreline Community College</p>
+        <p>16101 Greenwood Ave N, Shoreline, WA 98133</p>
+    </section>
+    
+<!-----------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>   
+    
+    
+</body>
+</html>

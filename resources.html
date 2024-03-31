@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, intial-scale=1.0">
+    <title>ISC Shoreline</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="iscimages/logoisc.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="department.html">Our team</a></li>
+                    <li><a href="guide.html">Guide</a></li>
+                    <li><a href="contact.html" class="hero-btn">Contact</a></li>
+                    <li class="social-icons">
+                        <a href="https://www.instagram.com/iscshoreline" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@iscshoreline" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="showMenu()"></i>
+        </nav>
+        <h1>Guide to Seattle!</h1>
+        
+    </section>
+   
+    <!------ blog ------>
+    <section class="blog">
+        <h1>SHORELINE CC</h1>
+        <div class="blog-text">
+            <h2>ADVISING</h2>
+            <p>Student advisors are dedicated professionals who provide guidance and support to students as they navigate through their academic journey. They help students understand their degree requirements, plan their course schedules, and connect them with resources and opportunities that can enhance their academic and personal growth. Additionally, student advisors can assist with issues such as academic difficulty, financial aid, and career planning. They are an important point of contact for students, and are committed to helping them achieve their goals and reach their full potential. Whether you are just starting college or are nearing graduation, a student advisor can be a valuable asset in your academic journey.</p>
+            <!---divider--->
+            <h2>LIBRARY</h2>
+            <p>Our library is not just a place to check out books and study, it's a hub of learning and academic support. We have a variety of resources available to help you succeed in your studies, including a tutoring center staffed by experienced tutors who can provide one-on-one assistance in a variety of subjects. Our lending collection of books is extensive and varied, covering a wide range of subjects and genres. Additionally, we have quiet and comfortable study rooms available for individual or group study sessions. Whether you're looking for a quiet place to read, or a place to collaborate with classmates, our study rooms provide the perfect environment for learning and productivity. With the combination of these resources available, our library is a great place to visit to enhance your academic pursuits.</p>
+            <!---divider--->
+            <h2>COUNSELLING</h2>
+            <p>Counseling is a confidential and supportive service that can help individuals navigate through difficult times and challenges in their lives. Our counseling services are provided by experienced and compassionate professionals who are trained to help individuals cope with a wide range of issues such as stress, anxiety, depression, relationship problems, and more. They offer a safe and non-judgmental space for you to explore your thoughts and feelings, and work through any problems you may be facing. They can also provide guidance and support as you work towards making positive changes in your life. The counseling process is tailored to the individual's needs and goals, and can include different types of therapy such as cognitive-behavioral therapy, and other evidence-based approaches. Whether you are looking for support in dealing with a specific problem or just need someone to talk to, our counseling services are here to help.</p>
+            <!---divider--->
+            <h2>CLUBS</h2>
+            <p>At Shoreline, we have something for everyone! Membership is open to all enrolled students. Check out all active clubs, including Art Club, Black Student Union, Salsa Dancing Club, International Club, and Project Pride, and of course, the Indonesian Student Community!</p>
+            <!---divider--->
+            <h2>JOB OPPORTUNITIES</h2>
+            <p>Looking for a job at campus? Do not worry! Shoreline CC has a lot of job opportunities that are available for students. Here are some departments that are open to hiring students!</p>
+            <p> - Student Life</p>
+            <p> - International Education</p>
+            <p> - Tutoring Centre</p>
+            <p> - 7000 Building</p>
+            <p> - Peer Mentorship</p>
+        </div>
+    
+    </section>
+ 
+    <!------ footer ------>
+    <section class="footer">
+        <h4>Indonesian Student Community</h4>
+        <p>Shoreline Community College</p>
+        <p>16101 Greenwood Ave N, Shoreline, WA 98133</p>
+    </section>
+    
+<!-----------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>   
+    
+    
+</body>
+</html>

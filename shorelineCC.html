@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, intial-scale=1.0">
+    <title>ISC Shoreline</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="iscimages/logoisc.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="department.html">Our team</a></li>
+                    <li><a href="guide.html">Guide</a></li>
+                    <li><a href="contact.html" class="hero-btn">Contact</a></li>
+                    <li class="social-icons">
+                        <a href="https://www.instagram.com/iscshoreline" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@iscshoreline" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="showMenu()"></i>
+        </nav>
+        <h1>Guide to Seattle!</h1>
+        
+    </section>
+   
+    <!------ blog ------>
+    <section class="blog">
+        <h1>SHORELINE CC</h1>
+        <div class="blog-text">
+            <h2>SCHOOL FACILITIES</h2>
+            <p>Shoreline Community College offers a multitude of school facilities. Starting off, the Pagoda Union Building, commonly known as the PUB, is where students come to hang out, grab a cup of coffee, and play games. The PUB houses the SCC bookstore, post office, International Education, and the Benefits HUB. Its student and community amenities include a quiet study lounge, gathering spaces, meeting rooms, two dining areas, and a game room. The PUB is also where the Student Life usually hosts events.</p>
+                
+            <p>Off to the side, there is the FOSS building. Here, you get to see the opportunities Shoreline Community College offers for each of the students. The cashier is located in the FOSS building, along with Enrollment Services, the Job Connections Center and the Career Education Options. You can also visit the FOSS building for your professor's office hours!</p>
+                
+            <p>On the other side of the PUB, there lies the Student Housing. The school offers several options ranging from a studio apartment to a 4-bedroom apartment, with monthly housing fees starting at $915. In addition, the school provides weekly shuttle trips to the local grocery stores.</p>
+                
+            <p>The library is situated in the center of Shoreline Community College. Famously named after the school’s founder, the Ray Howard Library is a hub of information that is available for students both offline and online. Inside the library, you can find the Student Learning Center where students can meet with peer tutors in all areas of subjects. There are also study rooms available for students to book and have a quiet study session.</p> 
+                
+            <p>Last but not least, the theater is home to student, faculty, and community theatrical and musical productions. With an orchestra pit and ample seat capacity, the Shoreline Community College theater provides a professional-grade venue for every show.</p>
+            <!---divider--->
+            <h2>CANVAS</h2>
+            <p>Canvas is an online learning tool where Shoreline hosts its online, hybrid, and web-supported classes. The school faculty uses Canvas to post course documents, assignments, syllabus, hold online discussions, post grades, and many more. Students can log into Canvas using their school email and password.</p>
+            <!---divider--->
+            <h2>CTCLINK</h2>
+            <p>Shoreline Community College uses a software system called ctcLink, which is a self-service portal where students and faculty can easily manage their college business. Students can use ctcLink to register for courses, manage financials, view transcripts, and more.</p>
+            <!---divider--->
+        </div>
+    
+    </section>
+ 
+    <!------ footer ------>
+    <section class="footer">
+        <h4>Indonesian Student Community</h4>
+        <p>Shoreline Community College</p>
+        <p>16101 Greenwood Ave N, Shoreline, WA 98133</p>
+    </section>
+    
+<!-----------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>   
+    
+    
+</body>
+</html>

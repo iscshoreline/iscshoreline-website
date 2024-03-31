@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, intial-scale=1.0">
+    <title>ISC Shoreline</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="iscimages/logoisc.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="department.html">Our team</a></li>
+                    <li><a href="guide.html">Guide</a></li>
+                    <li><a href="contact.html" class="hero-btn">Contact</a></li>
+                    <li class="social-icons">
+                        <a href="https://www.instagram.com/iscshoreline" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@iscshoreline" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="showMenu()"></i>
+        </nav>
+        <h1>Guide to Seattle!</h1>
+        
+    </section>
+   
+    <!------ blog ------>
+    <section class="blog">
+        <h1>SHORELINE CC</h1>
+        <div class="blog-text">
+            <h2>HOUSING</h2>
+            <p> - On Campus: Shoreline CC offers an on-campus housing option for those looking to gain the full college experience. Take a look at <a href="https://7000campusliving.com/building/">7000 campus living</a> for a full list of options and prices.</p>
+            
+            <p> - Shared Housing: An off-campus option common among Indonesian students in Seattle. Ask a parent about a house owner they may know.</p>
+            
+            <p> - Host Family Housing: Another off-campus option for those looking to feel more at home by being taken care of by a host family.</p>
+            <!---divider--->
+            <h2>BANKING</h2>
+            <p> - Bank of America: The most common option for students. Offers an online and mobile platform that could be used to make transactions and pay for bills.</p>
+            
+            <p> - Chase: A great option for banks. Also offers an online and mobile platform for daily financial tasks.</p>
+            <!---divider--->
+            <h2>GROCERIES</h2>
+            <p> - Costco: The best place to buy in bulk. Many of your daily necessities could be purchased in a large amount at once, for a college student-friendly price.</p>
+            
+            <p> - Asian Family Market: Want to feel more at home? This is the place for you. AFM offers a wide variety of Asian products which can be found not too far from Shoreline CC.</p>
+            <!---divider--->
+            <h2>TRANSPORT</h2>
+            <p>Seattle is a huge place, so here are ways you can get around the city to explore new places. Note that you may want to have an ORCA card with you when using public transport.</p>
+            
+            <p>King Country Metro:</p>
+            <p>The main bus company for Shoreline CC students. The company offers four main bus lines which all stop at campus:</p>
+            <p> - 331</p>
+            <p> - 5</p>
+            <p> - 330</p>
+            <p> - 345</p>
+            <p>Feel free to use this bus to explore the city, as there are many more that bring people around, and not just the campus.</p>
+            <p>Use Google Maps for a more accurate list of bus times.</p>
+            <p>1 Line:</p>
+            <p>The 1-Line is Seattle’s main train system. It begins at Northgate, south of campus, and can bring you all the way to the Seattle-Tacoma Airport at a very cheap price.</p>
+            <!---divider--->
+            <h2>SAFETY</h2>
+            <p>Shoreline Safety and Security:</p>
+            <p>Shoreline CC greatly values its students' security. Feel free to visit the FOSS building or anywhere around campus to quickly get a hold of Shoreline police.</p>
+            <p>911:</p>
+            <p>Call this number to get quick emergency support from Seattle’s Police Department whenever you feel your safety is being jeopardized.</p>
+            <!---divider--->
+            <h2>HOSPITAL</h2>
+            <p>Seattle offers many great hospitals around the city, do not hesitate to visit any of these whenever you need to:</p>
+            <p> - UW Medical Center - Northwest</p>
+            <p> - UW Medical Center - Montlake</p>
+            <p> - Virginia Mason Medical Center</p>
+            <p> - Swedish Hospital Cherry Hill Campus</p>
+            <!---divider--->
+            <h2>RELIGIOUS COMMUNITIES</h2>
+            <p> - IFGF Seattle</p>
+            <p> - St. James Catherdral</p>
+            <p> - Idris Mosque</p>
+            <p> - Betsuin Buddhist Temple</p>
+        </div>
+    
+    </section>
+ 
+    <!------ footer ------>
+    <section class="footer">
+        <h4>Indonesian Student Community</h4>
+        <p>Shoreline Community College</p>
+        <p>16101 Greenwood Ave N, Shoreline, WA 98133</p>
+    </section>
+    
+<!-----------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>   
+    
+    
+</body>
+</html>
