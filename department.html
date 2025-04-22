@@ -40,47 +40,47 @@
         <p>Meet Our Officers!</p>
         <div class="row">
             <div class="departments-col">
-                <img src="iscimages/President2025.JPG">
+                <img src="iscimages/President2025.JPG" alt="Morgan Gazali" class="popup-image" onclick="openModal(this)">
                 <h3>President</h3>
                 <p>Morgan Gazali</p>
             </div>
             <div class="departments-col">
-                <img src="iscimages/VP2025.JPG">
+                <img src="iscimages/VP2025.JPG" alt="Grace Salim" class="popup-image" onclick="openModal(this)">
                 <h3>Vice President</h3>
                 <p>Grace Salim</p>
             </div>
             <div class="departments-col">
-                <img src="iscimages/Secretary2025.JPG">
+                <img src="iscimages/Secretary2025.JPG" alt="Joanna and Charlene" class="popup-image" onclick="openModal(this)">
                 <h3>Secretary</h3>
                 <p>Joanna, Charlene</p>
             </div>
             <div class="departments-col">
-                <img src="iscimages/Treasurer2025.jpeg">
+                <img src="iscimages/Treasurer2025.jpeg" alt="Ricardo and Ivy" class="popup-image" onclick="openModal(this)">
                 <h3>Treasurer</h3>
                 <p>Ricardo, Ivy</p>
             </div>
             <div class="departments-col">
-                <img src="iscimages/EO2025.JPG">
+                <img src="iscimages/EO2025.JPG" alt="Henok, Chelsea C, Caitlyn, Tessa" class="popup-image" onclick="openModal(this)">
                 <h3>Event Organizer</h3>
                 <p>Henok, Chelsea C, Caitlyn, Tessa</p>
             </div>
             <div class="departments-col">
-                <img src="iscimages/Fundraising2025.JPG">
+                <img src="iscimages/Fundraising2025.JPG" alt="Keysha, Jonathan, Chelsea A" class="popup-image" onclick="openModal(this)">
                 <h3>Fundraising</h3>
                 <p>Keysha, Jonathan, Chelsea A</p>
             </div>
             <div class="departments-col">
-                <img src="iscimages/Soda2025.jpeg">
+                <img src="iscimages/Soda2025.jpeg" alt="Sonia, Chris, Margaret" class="popup-image" onclick="openModal(this)">
                 <h3>Soda</h3>
                 <p>Sonia, Chris, Margaret</p>
             </div>
             <div class="departments-col">
-                <img src="iscimages/RTD2025.jpeg">
+                <img src="iscimages/RTD2025.jpeg" alt="Johanes, Kimi, Jefferson" class="popup-image" onclick="openModal(this)">
                 <h3>RTD</h3>
                 <p>Johanes, Kimi, Jefferson</p>
             </div>
             <div class="departments-col">
-                <img src="iscimages/Logistics2025.JPG">
+                <img src="iscimages/Logistics2025.JPG" alt="Jaden, Altis, Nelson" class="popup-image" onclick="openModal(this)">
                 <h3>Logistics</h3>
                 <p>Jaden, Altis, Nelson</p>
             </div>
@@ -108,7 +108,25 @@
     }
     
 </script>   
-    
+
+<div id="imgModal" class="img-modal">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <img class="img-modal-content" id="modalImage">
+</div>
+
+<script>
+    function openModal(imgElement) {
+        var modal = document.getElementById("imgModal");
+        var modalImg = document.getElementById("modalImage");
+        modal.style.display = "flex";
+        modalImg.src = imgElement.src;
+    }
+
+    function closeModal() {
+        document.getElementById("imgModal").style.display = "none";
+    }
+</script>
+
     
 </body>
 </html>
