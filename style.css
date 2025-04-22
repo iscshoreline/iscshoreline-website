@@ -264,7 +264,7 @@ h3{
 }
 
 .memories-col video{
-    width: 100%; 
+    width: 80%; 
     max-width: 100%; 
     height: auto; 
     border-radius: 10px;
@@ -456,7 +456,7 @@ h3{
 }
 .contact-col{
     flex-basis: 48%;
-    margin bottom: 30px;
+    margin-bottom: 30px;
 }
 .contact-col div{
     display: flex;
